@@ -121,7 +121,7 @@ def draw_handle():
     t.goto(140, 180)
     t.setheading(225)
     t.left(90)
-    t.forward(17.5)  # Move to center of blade
+    t.forward(22.5)  # Increased offset to center on blade
     t.pendown()
     
     t.color("black")
@@ -141,7 +141,7 @@ def draw_handle():
     t.goto(140, 180)
     t.setheading(225)
     t.left(90)
-    t.forward(17.5)  # Move to center of blade
+    t.forward(22.5)  
     t.setheading(45)
     t.forward(70)
     t.pendown()
