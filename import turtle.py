@@ -169,7 +169,6 @@ def draw_dumbbell_bar():
     t.end_fill()
 
 def draw_dumbbell_weights():
-
     t.penup()
     t.goto(-140, 180)
     t.setheading(315)
@@ -178,7 +177,7 @@ def draw_dumbbell_weights():
     t.forward(30) 
     t.right(90)
     t.pendown()
-    
+
     t.color("darkgray")
     t.begin_fill()
     t.forward(25)  
@@ -189,7 +188,28 @@ def draw_dumbbell_weights():
     t.right(90)
     t.forward(80)
     t.end_fill()
+    
+    t.penup()
+    t.goto(-140, 180)
+    t.setheading(315)
+    t.forward(55) 
+    t.left(90)
+    t.forward(35)  
+    t.right(90)
+    t.pendown()
+    
+    t.color("dimgray")
+    t.begin_fill()
+    t.forward(15)  
+    t.right(90)
+    t.forward(90)  
+    t.right(90)
+    t.forward(15)
+    t.right(90)
+    t.forward(90)
+    t.end_fill()
  
+    
     t.penup()
     t.goto(-140, 180)
     t.setheading(315)
@@ -208,6 +228,27 @@ def draw_dumbbell_weights():
     t.forward(25)
     t.right(90)
     t.forward(80)
+    t.end_fill()
+    
+    
+    t.penup()
+    t.goto(-140, 180)
+    t.setheading(315)
+    t.forward(365)  
+    t.left(90)
+    t.forward(35)  
+    t.right(90)
+    t.pendown()
+    
+    t.color("dimgray")
+    t.begin_fill()
+    t.forward(15)  
+    t.right(90)
+    t.forward(90)  
+    t.right(90)
+    t.forward(15)
+    t.right(90)
+    t.forward(90)
     t.end_fill()
 
 screan = turtle.Screen()
